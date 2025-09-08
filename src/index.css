@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+body {
+  color: hsl(228, 39%, 23%);
+}
+
+.text {
+  color: hsl(228, 39%, 23%);
+}
+
+.bg-orange {
+  background: hsl(12, 88%, 59%);
+}
+
+.bg-orange-light {
+  background: #ffefeb;
+}
+
+.slick-slide > div {
+  margin: 0 10px;
+  /* display: flex;
+  justify-content: center; */
+}
+/* .slick-list {
+    overflow: hidden !important;
+  /* overflow-y: visible !important; */
+/* } */
