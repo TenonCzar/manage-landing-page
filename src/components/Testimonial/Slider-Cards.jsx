@@ -1,5 +1,8 @@
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination, Navigation } from "swiper/modules";
 import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
 import Ali from "../../assets/avatar-ali.png";
 import Anisha from "../../assets/avatar-anisha.png";
 import Richard from "../../assets/avatar-richard.png";
@@ -11,17 +14,19 @@ export default function MySlider() {
       spaceBetween={20}
       slidesPerView={1}
       loop={true}
+      modules={[Pagination, Navigation]}
+      pagination={{ clickable: true }}
       breakpoints={{
         480: { slidesPerView: 1 },
         768: { slidesPerView: 2 },
         1024: { slidesPerView: 3 },
       }}
     >
-        {data.map((d, i) => (
-      <SwiperSlide key={i}>
+      {data.map((d, i) => (
+        <SwiperSlide key={i}>
           <div
             key={i}
-            className="h-fit  rounded flex flex-col gap-2 relative pt-12"
+            className="h-fit rounded flex flex-col gap-2 relative pt-12"
           >
             <div className="flex justify-center items-center w-full">
               <img src={d.image} alt="" className="h-20 w-20" />
@@ -31,8 +36,8 @@ export default function MySlider() {
               <p className="text-gray-400">{d.testimonial}</p>
             </div>
           </div>
-      </SwiperSlide>
-        ))}
+        </SwiperSlide>
+      ))}
     </Swiper>
   );
 }
@@ -65,4 +70,3 @@ const data = [
     testimonial: `Their software allows us to track, manage and collaborate on our projects from anywhere. It keeps the whole team in-sync without being intrusive.`,
   },
 ];
-            

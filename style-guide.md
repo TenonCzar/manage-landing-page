@@ -28,7 +28,7 @@ The designs were created to the following widths:
 
 - Font size: 16px
 
-### Font
+### **Font**
 
 - Family: [Be Vietnam Pro](https://fonts.google.com/specimen/Be+Vietnam+Pro)
 - Weights: 400, 500, 700

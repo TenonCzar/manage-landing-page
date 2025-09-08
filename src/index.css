@@ -5,7 +5,7 @@ body {
 }
 
 .text {
-  color: hsl(228, 39%, 23%);
+  color: #242d52;
 }
 
 .bg-orange {
@@ -25,4 +25,22 @@ button:hover{
 
 .fixed{
   background: #00000061;
+}
+
+.grey9{
+  background: hsl(233, 12%, 13%);
+}
+
+.swiper-pagination{
+  bottom: -5px !important;
+}
+
+.swiper-pagination-bullet{
+  background: hsl(12, 88%, 59%) !important;
+}
+
+@media (min-width: 1000px){
+  .swiper-pagination{
+    display: none;
+  }
 }
