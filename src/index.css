@@ -16,12 +16,13 @@ body {
   background: #ffefeb;
 }
 
-.slick-slide > div {
-  margin: 0 10px;
-  /* display: flex;
-  justify-content: center; */
+button{
+  cursor: pointer;
 }
-/* .slick-list {
-    overflow: hidden !important;
-  /* overflow-y: visible !important; */
-/* } */
+button:hover{
+  opacity: 80%;
+}
+
+.fixed{
+  background: #00000061;
+}

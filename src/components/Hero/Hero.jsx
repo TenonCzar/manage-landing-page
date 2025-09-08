@@ -2,11 +2,11 @@ import React from 'react'
 import Illustration from "../../assets/illustration-intro.svg"
 const Hero = () => {
   return (
-    <div className="flex flex-col gap-6 md:flex-row-reverse  px-10 md:px-20 mt-12 justify-between items-center md:items-start w-full">
+    <div className="flex flex-col mt-12 gap-6 md:flex-row-reverse  px-10 md:px-20 mt-12 justify-between items-center md:items-start w-full">
       <img
         src={Illustration}
         alt="illustration"
-        className="md:w-[50%] w-[400px]"
+        className=" w-[400px]"
       />
 
       <div className="writeup flex flex-col text-center items-center gap-3 md:text-left md:items-start w-[300px]">

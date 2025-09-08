@@ -14,8 +14,8 @@ const MidSect = () => {
         </p>
       </div>
 
-      <div className="points flex flex-col gap-8 mt-6 md:mt-0 w-full bg-amber-400">
-        <div className="point1 flex flex-col gap-2 font-semibold w-full">
+      <div className="points flex flex-col gap-8 mt-6 md:mt-0 w-fit items-end">
+        <div className="point1 float-right w-fit flex flex-col gap-2 font-semibold ">
           <div className="head flex gap-4 items-center text font-bold bg-[#ffefeb] w-full rounded-l-full md:bg-transparent">
             <div className="no bg-orange text-white py-2 px-6 rounded-full font-semibold">
               01
@@ -28,7 +28,7 @@ const MidSect = () => {
             smallest of details. Never lose sight of the bigger picture again.
           </p>
         </div>
-        <div className="point1 flex flex-col gap-2 font-semibold w-full">
+        <div className="point1 flex flex-col gap-2 font-semibold">
           <div className="head flex gap-4 items-center text font-bold bg-[#ffefeb] w-full rounded-l-full md:bg-transparent">
             <div className="no bg-orange text-white py-2 px-6 rounded-full font-semibold">
               02
@@ -41,7 +41,7 @@ const MidSect = () => {
             you need to keep stakeholders informed.
           </p>
         </div>
-        <div className="point1 flex flex-col gap-2 font-semibold w-full">
+        <div className="point1 flex flex-col gap-2 font-semibold">
           <div className="head flex gap-4 items-center text font-bold bg-[#ffefeb] w-full rounded-l-full md:bg-transparent">
             <div className="no bg-orange text-white py-2 px-6 rounded-full font-semibold">
               03
