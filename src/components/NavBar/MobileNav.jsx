@@ -2,7 +2,7 @@ import React from "react";
 import CloseBtn from "../../assets/icon-close.svg";
 const MobileNav = ({ onClose }) => {
   return (
-    <div className="bg-black h-[100vh] pt-14 top-0 fixed left-0 w-[100vw] z-10 md:hidden">
+    <div className="bg-black h-[100vh] transition-all trans pt-14 top-0 fixed left-0 w-[100vw] z-10 md:hidden">
       {/* Mobile Menu Button */}
       <button
         onClick={onClose}

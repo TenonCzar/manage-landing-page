@@ -8,22 +8,24 @@ import Pin from "../../assets/icon-pinterest.svg";
 
 const Footer = () => {
   return (
-    <div className="flex flex-col pt-10 grey9 items-center justify-center md:justify-between px-12 text-white md:flex-row-reverse relative">
-      <div className="top flex items-center gap-2 w-full max-w-[400px]">
+    <div className="flex flex-col pt-10 grey9 items-center justify-center md:justify-between px-12 text-white md:flex-row-reverse relative md:items-start">
+      <form className="top flex items-center gap-2 w-full max-w-[400px]">
         <input
           type="email"
           name="email"
+          required
           id="email"
           className="bg-white rounded-full p-2 px-4 w-full outline-none text"
         />
         <button
           type="submit"
+          form="email"
           className="bg-orange text-white py-2 px-6 rounded-full"
         >
           Go
         </button>
-      </div>
-      <div className="links text-white flex gap-4 w-full justify-between py-12 px-6 max-w-[300px]">
+      </form>
+      <div className="links text-white flex gap-4 w-full justify-between py-12 px-6 max-w-[300px] md:pt-0">
         <div className="right flex flex-col gap-2">
           <a href="#" className="hover:text-orange-600">
             Home
@@ -116,7 +118,7 @@ const Footer = () => {
           </svg>
         </div>
       </div>
-      <div className="copyright absolute bottom-0 flex flex-col align-center justify-center text-center md:top-32 md:right-32">
+      <div className="copyright absolute bottom-0 flex flex-col align-center justify-center text-center md:top-6 md:right-32">
         Copyright 2020. All Rights Reserved
       </div>
     </div>

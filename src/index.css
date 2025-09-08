@@ -2,6 +2,7 @@
 
 body {
   color: hsl(228, 39%, 23%);
+  overflow-x: hidden;
 }
 
 .text {
@@ -21,6 +22,10 @@ button{
 }
 button:hover{
   opacity: 80%;
+}
+
+.trans{
+  transition: 5s ease-in-out all ;
 }
 
 .fixed{
